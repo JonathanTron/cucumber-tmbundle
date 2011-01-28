@@ -8,7 +8,6 @@ def gemfile?
 end
 
 if gemfile?
-  require "rubygems"
   require "bundler"
   Bundler.setup
 else
